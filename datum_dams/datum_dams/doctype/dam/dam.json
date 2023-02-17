@@ -1,0 +1,976 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-02-16 11:05:06.845588",
+ "default_view": "List",
+ "description": ".",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_tab",
+  "page",
+  "column_break_xkbj",
+  "validation_status",
+  "section_break_prax",
+  "title",
+  "operator",
+  "hydro_region",
+  "size",
+  "column_break_lsha",
+  "dam_owner",
+  "type",
+  "category",
+  "section_break_wxdn",
+  "column_break_cmyz",
+  "geopolitical_zone",
+  "column_break_dsku",
+  "state",
+  "column_break_johr",
+  "lga",
+  "dam_purpose_section",
+  "dp_er",
+  "dp_fc",
+  "dp_fi",
+  "dp_fo",
+  "column_break_jwoi",
+  "dp_he",
+  "dp_ir",
+  "dp_lv",
+  "dp_nv",
+  "column_break_axrt",
+  "dp_pc",
+  "dp_rc",
+  "dp_rvc",
+  "dp_ws",
+  "dp_wlc",
+  "xxx_section",
+  "consultant",
+  "contractor",
+  "column_break_ngpo",
+  "commencement",
+  "completion",
+  "column_break_lehx",
+  "status",
+  "comment",
+  "section_break_oeyc",
+  "upstream_slope",
+  "downstream_slope",
+  "column_break_cprm",
+  "crest_height",
+  "crest_width",
+  "crest_length",
+  "column_break_qnug",
+  "volume_material",
+  "reservoir_area",
+  "reservoir_capacity",
+  "column_break_rfna",
+  "he_power",
+  "spill_way_type",
+  "spill_capacity",
+  "instrumentation_tab",
+  "instrumentation_section",
+  "in_auxiliary_spillway",
+  "in_bourdon_gauges",
+  "in_crack_meter",
+  "in_current_meter",
+  "in_drainage_weirs",
+  "in_flow_chambers",
+  "in_filters",
+  "in_filter_drain",
+  "in_inclinometers",
+  "in_inclino_tessometer",
+  "in_levelling_staff",
+  "column_break_kiro",
+  "in_main_drain",
+  "in_multipoint_extensometer",
+  "in_measuring_gauge",
+  "in_manholes",
+  "in_monuments",
+  "in_observation_wells",
+  "in_pressure_cells",
+  "in_piezometers",
+  "in_piezometer_weather_station",
+  "in_pneumatic_piezometers",
+  "in_pore_pressure_cells",
+  "section_break_ondc",
+  "in_pore_pressure_gauge",
+  "in_relief_well",
+  "in_settlement_cells",
+  "in_scour_gauge",
+  "in_scour_valve",
+  "in_surface_deflection_benchmarks",
+  "in_staff_gauge",
+  "in_surface_monument",
+  "in_settlement_gauge",
+  "in_stand_pipe",
+  "in_stand_pipe_piezometers",
+  "column_break_wted",
+  "in_surface_settlement_point",
+  "in_staff_valve",
+  "in_spillway_drain",
+  "in_toe_drains",
+  "in_thermometer",
+  "in_topo_survey_beacons",
+  "in_terminal_wells",
+  "in_weir_boxes",
+  "in_water_level_gauge",
+  "rivers_tab",
+  "column_break_dkee",
+  "river_basin",
+  "column_break_hvsm",
+  "river",
+  "map_tab",
+  "section_break_hzaj",
+  "lat",
+  "column_break_ezlt",
+  "lon",
+  "column_break_epcu",
+  "altitude",
+  "section_break_wcyb",
+  "map",
+  "photos_tab",
+  "photo1",
+  "column_break_civs",
+  "image_1",
+  "section_break_samw",
+  "column_break_bhqt",
+  "photo2",
+  "column_break_xfnj",
+  "image_2",
+  "section_break_hckd",
+  "column_break_gvdh",
+  "photo3",
+  "column_break_wmnu",
+  "image_3",
+  "section_break_haqt",
+  "photo4",
+  "column_break_smfo",
+  "image_4",
+  "section_break_txpg",
+  "photo5",
+  "column_break_zkzo",
+  "image_5",
+  "web_tab",
+  "route",
+  "column_break_zxsm",
+  "is_published"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Select",
+   "label": "Operator",
+   "options": "\nADAMAWA STATE MWR\nAIRBDA\nASIA STATE MOA\nBAUCHI STATE WB\nBENUE STATE MWR\nBENUE VALLEY FARMS\nBORBDA\nBORNO STATE MWR/WB\nCBDA\nCRBDA\nDANGOTE/BENUE CEMENT COMPANY\nEBONYI STATE MOA\nEDO STATE WB\nEKITI STATE WC\nENUGU STATE MOA\nFMOA\nFMWR\nFRESH\nGANAKA MEMORIAL GIRLS COLLEGE\nGOMBE STATE MWR\nHJRBDA\nIITA IBADAN\nIMO SG\nJIGAWA STATE MWR\nKADUNA STATE MOA&F\nKADUNA STATE MWR\nKADUNA STATE WC\nKAFUR LG\nKANKE LG\nKANO SG\nKANO STATE MWR\nKATSINA SG\nKATSINA STATE MOA&NR\nKOGI STATE WB\nKWARA STATE WC\nLABBARE AGRICULTURAL RESOURCES LTD\nLBRBDA\nLNRBDA\nMAYO BELWA COMMUNITY\nMBAWUESE COMMUNITY\nNASARAWA STATE MWR\nNESCO\nNIOMCO\nOGUN STATE ADP\nONDO STATE WC\nOORBDA\nOSUN STATE WC\nOYO SG & MWR & OYSADEP\nOYO STATE MWR\nOYO STATE WC\nOYSADEP\nPAGNA COMMUNITY\nPLATEAU AGRICULTURAL DEP\nPLATEAU STAE MWR\nPLATEAU STATE WB\nRAGUNG GASSA COMMUNITY\nRIJAU LG\nSABON GIDA COMMUNITY\nTALGWAN COMMUNITY\nTARABA STATE WB\nUBRBDA\nUNIVERSITY OF IBADAN\nUNRBDA\nUNRIMA\nWCOS\nYOBE STATE MWR"
+  },
+  {
+   "fieldname": "lat",
+   "fieldtype": "Float",
+   "label": "Latitude (N)"
+  },
+  {
+   "fieldname": "lon",
+   "fieldtype": "Float",
+   "label": "Longitude (E)"
+  },
+  {
+   "fieldname": "altitude",
+   "fieldtype": "Int",
+   "label": "Altitude (MASL)"
+  },
+  {
+   "fieldname": "river",
+   "fieldtype": "Data",
+   "label": "River"
+  },
+  {
+   "fieldname": "river_basin",
+   "fieldtype": "Select",
+   "label": "River Basin",
+   "options": "\nANAMBRA-IMO\nBENIN OWENA\nCHAD BASIN\nCROSS RIVER\nHADEJIA JAMA'ARE\nLOWER BENUE\nLOWER NIGER\nMADERA JAMA'ARE\nOGUN - OSUN\nSOKOTO RIMA\nUPPER BENUE\nUPPER NIGER"
+  },
+  {
+   "fieldname": "lga",
+   "fieldtype": "Data",
+   "label": "LGA"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State",
+   "options": "\nABIA\nADAMAWA\nAKWA IBOM\nBAUCHI\nBENUE\nBORNO\nCROSS RIVER\nDELTA\nEBONYI\nEDO\nEKITI\nENUGU\nFCT\nGOMBE\nIMO\nJIGAWA\nKADUNA\nKANO\nKATSINA\nKOGI\nKWARA\nNASARAWA\nNIGER\nOGUN\nONDO\nOSUN\nOYO\nPLATEAU\nTARABA\nYOBE"
+  },
+  {
+   "fieldname": "geopolitical_zone",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Geopolitical Zone",
+   "options": "\nNORTH CENTRAL\nNORTH EAST\nNORTH WEST\nSOUTH EAST\nSOUTH SOUTH\nSOUTH WEST"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "CONCRETE\nCONCRETE & EARTHFILL\nCONCRETE FILL\nCONCRETE GRAVITY\nCONCRETE WEIR\nEARTH & ROCKFILL\nEARTHFILL\nEARTHFILL & CONCRETE\nEARTHFILL & ROCKFILL\nEARTHFILL STONE FACED\nEARTHFILL/STONE PITCHED\nHOMOGENEOUS\nHOMOGENEOUS EARTHFILL\nROCK & EARTHFILL\nROCKFILL\nROLL FILLED\nROLL FILLED /HOMOGENEOUS\nROLLED EARTHFILL\nZONE EARTHFILL\nZONED EARTHFILL\nZONED ROCK FILL\nHOMOGENOUS (EARTH & ROCK FILL)\nHOMOGENEOUS EARTH & CONCRETE FILL\nZONED EARTHFILL & CONCRETE"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_er",
+   "fieldtype": "Check",
+   "label": "Educational Research"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_fc",
+   "fieldtype": "Check",
+   "label": "Flood Control"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_fi",
+   "fieldtype": "Check",
+   "label": "Fishing"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_fo",
+   "fieldtype": "Check",
+   "label": "Forestry"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_he",
+   "fieldtype": "Check",
+   "label": "Hydroelectricity"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_ir",
+   "fieldtype": "Check",
+   "label": "Irrigation"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_lv",
+   "fieldtype": "Check",
+   "label": "Livestock"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_nv",
+   "fieldtype": "Check",
+   "label": "Navigation"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_pc",
+   "fieldtype": "Check",
+   "label": "Pollution Control"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_rc",
+   "fieldtype": "Check",
+   "label": "Recreation"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_rvc",
+   "fieldtype": "Check",
+   "label": "River Crossing"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_ws",
+   "fieldtype": "Check",
+   "label": "Water Supply"
+  },
+  {
+   "default": "0",
+   "fieldname": "dp_wlc",
+   "fieldtype": "Check",
+   "label": "Wild Life Conservation"
+  },
+  {
+   "fieldname": "dam_purpose_section",
+   "fieldtype": "Section Break",
+   "label": "Dam Purpose"
+  },
+  {
+   "fieldname": "column_break_lsha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hzaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dkee",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wxdn",
+   "fieldtype": "Section Break",
+   "label": "Location"
+  },
+  {
+   "fieldname": "column_break_cmyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jwoi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_axrt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "xxx_section",
+   "fieldtype": "Section Break",
+   "label": "Construction"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "\nDAM\nWEIR"
+  },
+  {
+   "fieldname": "consultant",
+   "fieldtype": "Select",
+   "label": "Consultant",
+   "options": "\nAD TEAM LTD\nAIM CONSULTANT LTD\nAIRBDA\nALEXANDE GIBBS & PARTNERS, ENGLAND\nAR-AR PARTNERSHIP/ SURDS ENGINEERING\nB.O.G.\nBALFOUR BEATTY & CO LTD\nBENUE CEMENT COMPANY\nBENUE STATE MWR\nBINNIE DEALON\nCHIDO-AMAJUYI & PARTNERS NIG LTD\nCRBDA\nCREST ASSOCIATES\nDAR-HANDASAH\nDEPT OF WORKS, KANO STATE MWR\nDIRECT LABOUR\nDIYAM\nECAN-KANO\nFIC CONSULTANTS LTD\nGEOMATICS ENGINEERING LTD\nGLEESON\nHANSOM ENGINEERING\nHASKONIN DHV\nHASSAN & PARTNERS LTD\nJABIRDEP ENGINEERING LTD\nJOFRAL CONSULTANT\nJULIUS BERGER\nKWARA STATE UTILITY BOARD\nKWARA STATE WC\nLBRBDA\nLIDECO\nLILLEY UK\nLNRBDA\nM.O.W.\nMATHS CONSULT\nMESSRS BEACON ENG. NIG. LTD\nNAP\nNESTOTR NIG LTD\nNIGERIA WATER SUPPLY CONSTRUCTION CO.\nO.M. AKOR & I.A. BAJAH\nOMODEM COVENANT VENTURES\nOORBDA\nOSSADEP\nOYSADEP\nPLATEAU STATE MOW\nPSE CONSULTANTS LTD\nPWD\nROYAL HASKONIN DHV\nSANI CIVIL\nSHAWMONT\nSHOWMONT NIG. LTD\nSOFRIMINES\nSRRBDA\nSURDS ENGINEERING SERVICES LTD\nTAHAL CONSULTANTS NIG LTD\nTALGWAN COMMUNITY\nTEAMWORK GLOBAL ASSOCIATE\nTEAMWORK GLOBAL ASSOCIATES\nUBRBDA\nUNRBDA\nVIBRO CONSULTING ENGINEERS\nVIBRO ENGINEERING COMPANY LTD\nWADSCO\nWADSCO/CHIDO AMAJUOYI & PARTNERS\nWORKS DEPT. KANKE LG\nWRECA\nWRECA/MOWS\nYEMAG\nYEMAG GROUP LTD"
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Select",
+   "label": "Contractor",
+   "options": "\nA. G. VISION CONSTRUCTION LTD\nABU-HALAWA\nAGB GARUBA BABA\nAGB NIG LTD\nAIRBDA\nALIMENTARI NIG LTD\nALLAHI NIG LTD\nANBEEZ SERVICES LIMITED\nAPEX UMBRELLA NIG. LTD\nBAUCHI STATE WB\nBENUE CEMENT COMPANY\nBIWATER\nBOOKERNTAN NIG LTD\nBORBDA\nBOSTAN ENGINEERING\nBRITISH ENGINEERING COMPANY (BEC)\nBULLET & IMPRESIT\nCONTRUCTION PROJECT OF NIGERIA (CPN)\nCOSTAIN WA LTD\nCRBDA\nDENNISE HIRYAN\nDIRECT LABOUR\nDUMEZ\nDUWATHU GLOBAL SERVICES LTD\nE.O OGIDI & SONS NIG. LTD\nEFOBA CONTRUCTION & ENGINEERING LTD\nEHI CONSTRUCTION NIG LTD\nENATEC NIG LTD\nEUROBEL INTL\nFOREST MOUNTAIN NIG. LTD\nFORTIA ENGINEERING NIG LTD\nFOUNDATION SOLID NIG LTD\nG.CAPPA LTD\nGEOMEK NIG. LTD.\nGEOTEN NIG LTD\nGHANDI\nGILBERT ASSOCIATES\nGILMOR ENGINEERING NIG LTD\nGLEESON\nGOMBE STATE ADP\nGORGE WIMPEY & CO\nHARLAND ENGINEERING CO\nHYDRO FLOW\nHYDRO WORKS NIG LTD\nHYDRO-SOURCE & RESOURCES CONSTRUCTION\nHYDROWORKS\nIBTANK NIG LTD\nINFIOUEST INTERNATIONAL LIMITED\nJ. M OGODO & SONS INVESTMENT LTD\nJABI AND SONS LTD\nJILLAHI NIG LTD\nJKN CONSTRUCTION COMPANY\nJULIUS BERGER\nJURGEN NIG LTD\nKABAG INVESTMENT\nKINGSWOOD ENGINEERING LTD.\nKWARA STATE WC\nLBRBDA\nLEE PARNO\nLILLEY UK\nMADOBI\nMESSR CEYLON CONSTRUCTION SERVICES\nMESSRS EUROBEL INTL. LTD\nMESSRS TURNING POINT ENGINEERING LTD\nMODULE NIG LTD\nMORHY NIG LTD\nMOTHERCAT LTD\nNASARA NIG LTD\nNECCO. CO. LTD\nNELSON BENJAMIN NIG. LTD\nNESCO\nNESTOTR NIG LTD\nNIG. WATER RES. DEV. LTD.\nNIGER DYNAMICS\nNIGERIAN DYNAMIC\nNORTH SOUTH OAT LTD\nOKD CONSTRUCTION NIG LTD\nOORBDA\nOSSADEP\nOYSADEP\nP.W.D.\nPERICOM NIGERIA LIMITED\nPLATEAU STATE MOW\nPLATEAU STATE WB\nPWD\nRCC\nRCC & PCI\nRIVER PLATES\nROADS NIG LTD\nROUDO NIG LTD\nS.K.Y LIMITED\nSATO ENGINEERING NIG. LTD.\nSCC NIG. LTD\nSMACE NIG LTD\nSTIRLING CIVIL ENGINEERING\nSYSTEM TEMPLE NIG.LTD\nTALGWAN COMMUNITY\nTIMMWORK NIG LTD\nUBRBDA\nUCE LTD, UBRBDA AND SECURD LTD\nUMEZ ENGINEERING LTD\nUNICOS/ KWARA STATE WC\nWORKS DEPT. KANKE LG\nWORKS DEPT. UNIVERSITY OF IBADAN\nWRECA\nWRECA/MOWS"
+  },
+  {
+   "fieldname": "commencement",
+   "fieldtype": "Int",
+   "label": "Commencement"
+  },
+  {
+   "fieldname": "completion",
+   "fieldtype": "Data",
+   "label": "Completion"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nCOMPLETED\nCOMPLETED (SILTED)\nNEEDS REHABILITATION\nONGOING"
+  },
+  {
+   "fieldname": "upstream_slope",
+   "fieldtype": "Data",
+   "label": "Upstream Slope"
+  },
+  {
+   "fieldname": "downstream_slope",
+   "fieldtype": "Data",
+   "label": "Downstream Slope"
+  },
+  {
+   "fieldname": "dam_owner",
+   "fieldtype": "Select",
+   "label": "Owner",
+   "options": "\nABDULLAHI ADAMU\nABIA SG\nADAMAWA SG\nAHMED JODA\nALIYU WALGA\nBAUCHI SG\nBENUE SG\nBORNO SG\nEBONYI SG\nEDO SG\nEKITI SG\nENUGU STATE\nFG\nGANAKA MEMORIAL GIRLS COLLEGE\nGOMBE SG\nIITA IBADAN\nIMO SG\nJIGAAWA SG\nJIGAWA SG\nKADUNA SG\nKANKE LG\nKANO SG\nKATSINA SG\nKOGI SG\nKWARA SG\nLABBARE AGRICULTURAL RESOURCES LTD\nMBAWUESE COMMUNITY\nNASARAWA SG\nNESCO\nOGUN SG\nONDO SG\nOSUN SG\nOYO SG\nPAGNA COMMUNITY\nPG\nPLATEAU SG\nRAGUNG GASSA COMMUNITY\nRIJAU LG\nSABON GIDA COMMUNITY\nTALGWAN COMMUNITY\nTARABA SG\nYOBE SG"
+  },
+  {
+   "fieldname": "crest_height",
+   "fieldtype": "Float",
+   "label": "Crest Height (m)"
+  },
+  {
+   "fieldname": "crest_width",
+   "fieldtype": "Float",
+   "label": "Crest Width (m)"
+  },
+  {
+   "fieldname": "crest_length",
+   "fieldtype": "Float",
+   "label": "Crest Length (m)"
+  },
+  {
+   "fieldname": "volume_material",
+   "fieldtype": "Float",
+   "label": "Volume of Material (m3)"
+  },
+  {
+   "fieldname": "reservoir_area",
+   "fieldtype": "Float",
+   "label": "Reservoir Area (Km2)"
+  },
+  {
+   "fieldname": "reservoir_capacity",
+   "fieldtype": "Float",
+   "label": "Reservoir Capacity (m3)"
+  },
+  {
+   "fieldname": "he_power",
+   "fieldtype": "Float",
+   "label": "Power Generation (MW)"
+  },
+  {
+   "fieldname": "spill_way_type",
+   "fieldtype": "Select",
+   "label": "Spillway Type",
+   "options": "\n9-CELL BOX CULVET\nAUXILARY FREE FLOW\nBOTTOM OUTLET\nBOX CULVERT\nBROAD CRESTED\nBROAD CRESTED (GATED)\nBROAD CRESTED OGEE\nBROAD CRESTED WEIR\nCONCRETE\nCONCRETE FREE FLOW\nCONCRETE OGEE FREE FLOW\nCONCRETE SIDE CHANNEL\nCONCRETE TRAPEZODIAL FREE FLOW\nDOUBLE GATED CONCRETE\nFREE FLOW\nFREE FLOW (UNGATED)\nFREE FLOW & GATED\nFREE FLOW BOX CULVERT\nFREE FLOW OGEE\nFREE OVERFLOW\nGATED\nGATED (SLUICE)\nGATED MORNING GLORY\nGATED OGEE\nGATED OVER FLOW CREST OPEN CHUTE FLIP BUCKET\nMORNING GLORY\nMORNING GLORY & FREE FLOW (EMERGENCY)\nOGEE\nOGEE CONCRETE\nOGEE FREE FLOW\nOGEE GATED\nOGEE STEPPED\nOGEE UNGATED\nOGEE WITH 3 VERTICAL ROLLER GATES\nOPEN CHANNEL\nOPEN FREE FLOW\nOPEN OGEE FREE FLOW\nOPEN TRAPEZODIAL CHANNEL\nORIACE\nOUTLET VALVE\nPIPE CULVERT\nRADIAL GATE CONCRETE\nRADIAL GATE WEIR\nRADIAL GATED\nSLUICE GATE\nSTEPPED OGEE\nSTEPPED OGEE FREE FLOW\nUNCONTROLLED CONCRETE\nUNCONTROLLED CONCRETE OGEE\nUNCONTROLLED OGEE\nUNGATED\nUNGATED (STEPPED)"
+  },
+  {
+   "description": "m3/s",
+   "fieldname": "spill_capacity",
+   "fieldtype": "Float",
+   "label": "Spill Capacity (m3/s)"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Select",
+   "label": "Size",
+   "options": "\nSMALL\nMEDIUM\nLARGE"
+  },
+  {
+   "fieldname": "hydro_region",
+   "fieldtype": "Select",
+   "label": "Hydro Region",
+   "options": "\nCHAD BASIN\nEASTERN LITTORAL\nLOWER BENUE\nNIGER CENTRAL\nNIGER NORTH\nNIGER SOUTH\nUPPER BENUE\nWESTERN LITTORAL"
+  },
+  {
+   "fieldname": "page",
+   "fieldtype": "Int",
+   "label": "Page"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "validation_status",
+   "fieldtype": "Select",
+   "label": "Validation Status",
+   "options": "Pending\nCompleted"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_auxiliary_spillway",
+   "fieldtype": "Check",
+   "label": "Auxiliary Spillway"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_bourdon_gauges",
+   "fieldtype": "Check",
+   "label": "Bourdon Gauges"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_crack_meter",
+   "fieldtype": "Check",
+   "label": "Crack Meter"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_current_meter",
+   "fieldtype": "Check",
+   "label": "Current Meter"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_drainage_weirs",
+   "fieldtype": "Check",
+   "label": "Drainage Weirs"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_flow_chambers",
+   "fieldtype": "Check",
+   "label": "Flow Chambers"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_filters",
+   "fieldtype": "Check",
+   "label": "Filters"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_filter_drain",
+   "fieldtype": "Check",
+   "label": "Filter Drain"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_inclinometers",
+   "fieldtype": "Check",
+   "label": "Inclinometers"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_inclino_tessometer",
+   "fieldtype": "Check",
+   "label": "Inclino-Tessometer"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_levelling_staff",
+   "fieldtype": "Check",
+   "label": "Levelling Staff"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_main_drain",
+   "fieldtype": "Check",
+   "label": "Main Drain"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_multipoint_extensometer",
+   "fieldtype": "Check",
+   "label": "Multipoint Extensometer"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_measuring_gauge",
+   "fieldtype": "Check",
+   "label": "Measuring Gauge"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_manholes",
+   "fieldtype": "Check",
+   "label": "Manholes"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_monuments",
+   "fieldtype": "Check",
+   "label": "Monuments"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_observation_wells",
+   "fieldtype": "Check",
+   "label": "Observation Wells"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_pressure_cells",
+   "fieldtype": "Check",
+   "label": "Pressure Cells"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_piezometers",
+   "fieldtype": "Check",
+   "label": "Piezometers"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_piezometer_weather_station",
+   "fieldtype": "Check",
+   "label": "Piezometer Weather Station"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_pneumatic_piezometers",
+   "fieldtype": "Check",
+   "label": "Pneumatic Piezometers"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_pore_pressure_cells",
+   "fieldtype": "Check",
+   "label": "Pore Pressure Cells"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_pore_pressure_gauge",
+   "fieldtype": "Check",
+   "label": "Pore Pressure Gauge"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_relief_well",
+   "fieldtype": "Check",
+   "label": "Relief Well"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_settlement_cells",
+   "fieldtype": "Check",
+   "label": "Settlement Cells"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_scour_gauge",
+   "fieldtype": "Check",
+   "label": "Scour Gauge"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_scour_valve",
+   "fieldtype": "Check",
+   "label": "Scour Valve"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_surface_deflection_benchmarks",
+   "fieldtype": "Check",
+   "label": "Surface Deflection Benchmarks"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_staff_gauge",
+   "fieldtype": "Check",
+   "label": "Staff Gauge"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_surface_monument",
+   "fieldtype": "Check",
+   "label": "Surface Monument"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_settlement_gauge",
+   "fieldtype": "Check",
+   "label": "Settlement Gauge"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_stand_pipe",
+   "fieldtype": "Check",
+   "label": "Stand Pipe"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_stand_pipe_piezometers",
+   "fieldtype": "Check",
+   "label": "Stand Pipe Piezometers"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_surface_settlement_point",
+   "fieldtype": "Check",
+   "label": "Surface Settlement Point"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_staff_valve",
+   "fieldtype": "Check",
+   "label": "Staff Valve"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_spillway_drain",
+   "fieldtype": "Check",
+   "label": "Spillway Drain"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_toe_drains",
+   "fieldtype": "Check",
+   "label": "Toe Drains"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_thermometer",
+   "fieldtype": "Check",
+   "label": "Thermometer"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_topo_survey_beacons",
+   "fieldtype": "Check",
+   "label": "Topo Survey Beacons"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_terminal_wells",
+   "fieldtype": "Check",
+   "label": "Terminal Wells"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_weir_boxes",
+   "fieldtype": "Check",
+   "label": "Weir Boxes"
+  },
+  {
+   "default": "0",
+   "fieldname": "in_water_level_gauge",
+   "fieldtype": "Check",
+   "label": "Water Level Gauge"
+  },
+  {
+   "fieldname": "basic_tab",
+   "fieldtype": "Tab Break",
+   "label": "Basic"
+  },
+  {
+   "fieldname": "instrumentation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Instrumentation"
+  },
+  {
+   "fieldname": "instrumentation_section",
+   "fieldtype": "Section Break",
+   "label": "Instrumentation"
+  },
+  {
+   "fieldname": "column_break_kiro",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ondc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wted",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xkbj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_prax",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ngpo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lehx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_oeyc",
+   "fieldtype": "Section Break",
+   "label": "Dam Specifications"
+  },
+  {
+   "fieldname": "column_break_qnug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rivers_tab",
+   "fieldtype": "Tab Break",
+   "label": "Rivers"
+  },
+  {
+   "fieldname": "column_break_hvsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "map_tab",
+   "fieldtype": "Tab Break",
+   "label": "Map"
+  },
+  {
+   "fieldname": "map",
+   "fieldtype": "Geolocation",
+   "label": "Map"
+  },
+  {
+   "fieldname": "column_break_ezlt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_epcu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wcyb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dsku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_johr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cprm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rfna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "photos_tab",
+   "fieldtype": "Tab Break",
+   "label": "Photos"
+  },
+  {
+   "fieldname": "photo1",
+   "fieldtype": "Attach Image",
+   "label": "Photo1"
+  },
+  {
+   "fieldname": "photo2",
+   "fieldtype": "Attach Image",
+   "label": "Photo2"
+  },
+  {
+   "fieldname": "photo3",
+   "fieldtype": "Attach Image",
+   "label": "Photo3"
+  },
+  {
+   "fieldname": "photo4",
+   "fieldtype": "Attach Image",
+   "label": "Photo4"
+  },
+  {
+   "fieldname": "photo5",
+   "fieldtype": "Attach Image",
+   "label": "Photo5"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "column_break_bhqt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gvdh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "web_tab",
+   "fieldtype": "Tab Break",
+   "label": "Web"
+  },
+  {
+   "fieldname": "column_break_zxsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_civs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_samw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xfnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hckd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wmnu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_haqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_smfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_txpg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zkzo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Image",
+   "label": "Image1",
+   "options": "photo1"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Image",
+   "label": "Image2",
+   "options": "photo2"
+  },
+  {
+   "fieldname": "image_3",
+   "fieldtype": "Image",
+   "label": "Image3",
+   "options": "photo3"
+  },
+  {
+   "fieldname": "image_4",
+   "fieldtype": "Image",
+   "label": "Image4",
+   "options": "photo4"
+  },
+  {
+   "fieldname": "image_5",
+   "fieldtype": "Image",
+   "label": "Image5",
+   "options": "photo5"
+  }
+ ],
+ "has_web_view": 1,
+ "image_field": "photo1",
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "make_attachments_public": 1,
+ "max_attachments": 5,
+ "modified": "2023-02-17 01:58:59.313665",
+ "modified_by": "Administrator",
+ "module": "Datum Dams",
+ "name": "Dam",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "dams",
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}
